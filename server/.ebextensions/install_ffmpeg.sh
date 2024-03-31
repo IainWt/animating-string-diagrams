@@ -1,0 +1,1 @@
+echo 'export PATH=$PATH:$(which ffmpeg)' >> /var/log/custom-log.log
