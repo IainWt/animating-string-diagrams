@@ -10,6 +10,7 @@ You may also need to install ffmpeg, LaTeX, and PangoCairo.
 ```
 cd server
 python3 -m venv .env
+source .env/bin/activate
 pip install -r requirements.txt
 python3 manage.py runserver
 ```
